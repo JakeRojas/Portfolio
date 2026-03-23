@@ -330,6 +330,30 @@ section {
 }
 
 /* Projects Section */
+.project-category {
+    margin-bottom: 60px;
+}
+
+.project-category:last-child {
+    margin-bottom: 0;
+}
+
+.category-heading {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.category-heading::after {
+    content: '';
+    height: 1px;
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
